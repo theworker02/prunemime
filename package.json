@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/prunemime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prune filesystem mime paths across POSIX and Windows conventions.",
+  "bin": {
+    "prunemime": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/prunemime.git"
+  },
+  "homepage": "https://theworker02.github.io/prunemime/",
+  "keywords": [
+    "prune",
+    "mime",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
